@@ -1,0 +1,180 @@
+.navbar-default .navbar-brand{
+	font-size: 30px;
+	font-weight: bold;
+	color: #45d3b3;
+	line-height: 35px;
+}
+.navbar-default .navbar-nav >li>a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #666693;
+	height: 70px;
+	line-height: 35px;
+}
+.navbar-default .navbar-toggle:hover{
+	background: #45D3B3;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.navbar-collapse{
+	background: rgba(255,255,255,0.1);
+}
+/*首页*/
+#home{
+	width: 100%;
+	background: url(../img/home-bg.jpg) no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+.mengban{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+	/*padding: 50px 0px;*/
+}
+#home h1{
+	font-weight: bold;
+	font-size: 30px;
+	margin: 20px auto;
+	padding-top: 70px;
+}
+#home p{
+	font-weight: bold;
+	line-height: 30px;
+}
+#home img{
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+/*论坛*/
+#luntan{
+	margin: 80px 0px;
+	text-align: center;
+}
+#luntan a{
+	color: #000;
+	text-decoration: none;
+	width: 100%;
+}
+#luntan .col-md-4:hover{
+	background: #f1f1f1;
+	box-shadow: 10px 10px 15px #ccc;
+}
+#luntan img{
+	display: inline-block;
+}
+/*前端开发*/
+#Web{
+	padding: 80px 0px;
+	background: lightgray;
+}
+#Web h2{
+	font-weight: bold;
+	margin: 20px 0px;
+}
+#Web p{
+	font-weight: bold;
+	line-height: 30px;
+}
+/*最新课程*/
+#new{
+	padding: 80px 0px;
+}
+#new h2{
+	font-weight: bold;
+}
+#new p{
+	font-weight: bold;
+	line-height: 25px;
+}
+/*移动App*/
+#App{
+	padding: 80px 0px;
+	text-align: center;
+	background: lightgray;
+}
+#App h2{
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+#App .col-md-3{
+	padding-bottom: 20px;
+}
+#App .course{
+	background: white;
+}
+#App .a{
+	border: 1px solid #45D3B3;
+	color: #45D3B3;
+	padding:10px 20px ;
+	text-decoration: none;
+	line-height: 80px;
+}
+#App .course .a:hover{
+	background: #45D3B3;
+	color: white;
+}
+/*移动app下载*/
+#App1{
+	padding: 80px 0px;
+}
+#App1 h2{
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+#App1 p{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+#App1 .btn{
+	padding: 5px 20px;
+	background: #45D3B3;
+	border: 1px solid #45D3B3;
+}
+#App1 .btn:hover{
+	background: lightgreen;
+	border: 1px solid lightgreen;
+}
+/*联系我们*/
+#call{
+	/*padding: 80px 0px;*/
+	background: url(../img/contact-bg.png) no-repeat;
+	background-size: cover;
+	color: white;
+}
+.mengban1{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+}
+#call h2,#call form{
+	padding-top: 80px;
+}
+#call p{
+	margin: 30px 0px;
+	font-weight: bold;
+}
+#call .form-control{
+	border: none;
+	/*height: 50px;*/
+	margin-bottom: 20px;
+}
+#call .sub{
+	background: #45D3B3;
+	color: white;
+}
+#call .sub:hover{
+	background: lightgreen;
+}
+/*尾部*/
+#footer{
+	padding: 20px;
+	text-align: center;
+	background: #000000;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
